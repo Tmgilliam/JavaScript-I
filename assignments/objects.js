@@ -20,9 +20,38 @@ const example = {
 // Write your intern objects here:
 
 const newgroup = {
-  "id": 0,
+  "id": 1,
   "name": "Mitzy",
   "email": "mmelloy0@psu.edu",
+  "gender": "F"
+}
+
+const newgroup = {
+  "id": 2,
+  "name": "Kennan",
+  "email": "kdiben1@tinypic.com",
+  "gender": "M"
+}
+
+const newgroup = {
+  "id": 3,
+  "name": "Keven",
+  "email": "kmummery2@wikimedia.org",
+  "gender": "M"
+}
+
+
+const newgroup = {
+  "id": 4,
+  "name": "Gannie,M",
+  "email": "gmartinson3@illinois.edu",
+  "gender": "M"
+}
+
+const newgroup = {
+  "id": 5,
+  "name": "Antonietta",
+  "email": "adaine5@samsung.com",
   "gender": "F"
 }
 
