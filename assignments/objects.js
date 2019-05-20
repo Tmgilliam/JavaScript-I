@@ -19,40 +19,58 @@ const example = {
 
 // Write your intern objects here:
 
-const newgroup = {
+const newgroupMitz = {
   "id": 1,
   "name": "Mitzy",
   "email": "mmelloy0@psu.edu",
-  "gender": "F"
+  "gender": "F",
 }
 
-const newgroup = {
+const newgroupKen = {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M"
-}
+  "gender": "M",
 
-const newgroup = {
+  'speak': function(){
+    return `Hello my name is ${this.name}`;
+  }
+  
+  
+}
+console.log(newgroupKen.speak())
+
+const newgroupKev = {
   "id": 3,
   "name": "Keven",
   "email": "kmummery2@wikimedia.org",
-  "gender": "M"
+  "gender": "M",
+  
+  'speak': function(){
+    return `Hello my name is ${this.name}`;
+  }
+  
 }
 
+console.log(newgroupKev.speak())
 
-const newgroup = {
+const newgroupGan = {
   "id": 4,
-  "name": "Gannie,M",
+  "name": "Gannie",
   "email": "gmartinson3@illinois.edu",
-  "gender": "M"
+  "gender": "M",
 }
 
-const newgroup = {
+const newgroupAnt = {
   "id": 5,
   "name": "Antonietta",
   "email": "adaine5@samsung.com",
-  "gender": "F"
+  "gender": "F",
+ 
+  'multiplyNums': function(num1 , num2){
+    return num1*num2;
+  }
+
 }
 
 // ==== Challenge 2: Reading Object Data ==== 
@@ -60,20 +78,31 @@ const newgroup = {
 
 // Mitzi's name
 
+console.log(newgroupMitz.name);
 // Kennan's ID
 
+console.log(newgroupKen.id);
 // Keven's email
+
+console.log(newgroupKev.email);
 
 // Gannie's name
 
+console.log(newgroupGan.name);
+
 // Antonietta's Gender
+
+console.log(newgroupAnt.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-// console.log(kennan.speak());
+
+console.log(newgroupKen.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-//console.log(antonietta.multiplyNums(3,4));
+console.log(newgroupAnt.multiplyNums(3,4));
+
+
 
 // === Great work! === Head over to the the arrays.js file or take a look at the stretch challenge
 
